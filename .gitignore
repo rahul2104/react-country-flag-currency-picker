@@ -1,0 +1,11 @@
+/coverage
+/es
+/node_modules
+/umd
+npm-debug.log*
+.DS_Store
+*.icloud
+/css/
+./package-lock.json
+package-lock.json
+.idea
