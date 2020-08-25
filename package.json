@@ -1,6 +1,6 @@
 {
   "name": "react-country-flag-currency-picker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react-country-flag-currency-picker React component",
   "main": "lib/index.js",
   "module": "es/index.js",
