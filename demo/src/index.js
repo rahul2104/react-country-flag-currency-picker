@@ -1,8 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
 import * as Highlight from 'react-syntax-highlight';
-import './scss/demo.scss';
-import '../../scss/react-flags-currency-select.scss';
+import './css/demo.css';
+import '../../css/react-flag-currency-select.css';
 import 'highlight.js/styles/default.css';
 
 import ReactCountryFlagsCurrencySelect from '../../src';
@@ -20,7 +20,7 @@ class Demo extends React.Component {
 				<div className="main">
 
 					<div className="section-header">
-						<span>Examples</span> 
+						<span>Examples</span>
 					</div>
 					<hr />
 					<div className="demo-group">
