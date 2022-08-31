@@ -1,6 +1,6 @@
 {
   "name": "react-country-flag-currency-picker",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react-country-flag-currency-picker React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -22,7 +22,8 @@
     "prepack": "cpy umd/main.css css --rename=react-flags-select.css"
   },
   "dependencies": {
-    "prop-types": "^15.5.8"
+    "prop-types": "^15.5.8",
+    "sass": "^1.54.7"
   },
   "peerDependencies": {
     "react": "16.x"
@@ -30,7 +31,6 @@
   "devDependencies": {
     "cpy-cli": "^3.1.0",
     "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.13.1",
     "nwb": "^0.23.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
