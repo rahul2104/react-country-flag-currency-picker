@@ -34,9 +34,9 @@ module.exports = {
     },
     config: (config) => {
       // include scss file in entry for UMD so it gets processed
-      if(config.output.libraryTarget === 'umd' && config.entry.indexOf('./scss/react-flags-currency-select.scss') < 0) {
-        config.entry.push('./scss/react-flags-currency-select.scss');
-      }
+      // if(config.output.libraryTarget === 'umd' && config.entry.indexOf('./scss/react-flags-currency-select.scss') < 0) {
+      //   config.entry.push('./scss/react-flags-currency-select.scss');
+      // }
 
       return config;
     }
