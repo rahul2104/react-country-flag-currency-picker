@@ -144,12 +144,10 @@ body {
     display: inline-block;
     vertical-align: middle;
 }
-.flag-select__option self:not(&amp;
-\--placeholder):hover, .flag-select__option self:not(&amp;
-\--placeholder):focus {
-                  outline: none;
-                  background: #eaeaea;
-              }
+.flag-select__option self:not(\--placeholder):hover, .flag-select__option self:not(\--placeholder):focus {
+  outline: none;
+  background: #eaeaea;
+}
 .flag-select__option.has-label {
     padding: 0 20px 3px 8px;
 }
